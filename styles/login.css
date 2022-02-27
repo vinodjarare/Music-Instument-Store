@@ -1,0 +1,132 @@
+#myVideo {
+    object-fit: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 5rem;
+    left: 0;
+}
+
+.login_container {
+    position: relative;
+}
+
+.login {
+    padding: 0 0 0;
+    margin: 5% 15%;
+    border: 1px solid #000;
+    z-index: 5;
+}
+
+.login_header {
+    padding: 0.8rem 0.8rem;
+    background-color: var(--black3);
+    color: var(--white);
+}
+
+.signup-form {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    max-width: 500px;
+    margin: 0 auto 0;
+    padding: 45px;
+}
+
+.signup-form label {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.signup-form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.signup-form input:focus-within {
+    border-color: #1e90ff;
+}
+
+.signup-form button {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #212329;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 15px 0;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: 400;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.signup-form button:hover,
+.signup-form button:active,
+.signup-form button:focus {
+    background: #ff4135;
+}
+
+.signup-form .message {
+    color: #212329;
+    font-size: 0.8rem;
+}
+
+.signup-form .message a {
+    color: #ff4135;
+    text-decoration: none;
+}
+
+.signup-form .register-form {
+    display: none;
+}
+
+.signup-form .active {
+    display: block;
+}
+
+.error {
+    font-size: 1.2rem;
+    color: #ff0000;
+}
+
+.newsletter {
+    position: relative;
+    border: none;
+}
+
+.footer {
+    position: relative;
+}
+
+.toggle-radio {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.toggle-radio div {
+    width: 100%;
+}
+
+.toggle-radio input {
+    width: 10px;
+}
+
+.toggle-radio label {
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.captcha {
+    margin-bottom: 20px;
+}
